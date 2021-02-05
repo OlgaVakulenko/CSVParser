@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DB</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">Current candidates (Lawyers)</header>
+        <div class="inputWrapper">
+            <!-- to validate the file format we can also use attribute "accept='.csv'" like this -->
+            <!-- <input type="file" id="inputFile" accept=".csv"> -->
+            <input type="file" id="inputFile">
+            <label for="inputFile" class="button">Import Candidates</label>
+        </div>
+        <table class="table">
+            <thead></thead>
+            <tbody class="tableBody"></tbody>
+        </table>
+        <div class="notice">
+            <p>File format is not correct</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
